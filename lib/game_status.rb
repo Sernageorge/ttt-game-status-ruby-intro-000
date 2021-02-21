@@ -20,3 +20,5 @@ def won?(board)
     puts "This space is #{wins}"
   end
 end
+
+wone?(board)
