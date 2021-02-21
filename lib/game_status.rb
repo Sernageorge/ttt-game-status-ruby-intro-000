@@ -21,7 +21,7 @@ def won?(board)
       if board.include?(position)
         true
       else
-        falsey
+        false
       end
     end
   end
