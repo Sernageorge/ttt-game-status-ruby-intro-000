@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   board == WIN_COMBINATIONS.each do |wins|
     if board.include?(wins)
-      return WIN_COMBINATIONS.detect {|wins|}
+      return WIN_COMBINATIONS.detect{|wins|}
     else
       false
     end
