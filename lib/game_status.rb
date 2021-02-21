@@ -16,11 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |wins|
-    if board.include?(wins) && position_taken?
-      true
-    else
-      false
-    end
-  end
+
 end
