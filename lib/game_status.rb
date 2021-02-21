@@ -15,8 +15,9 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?
+def won?(board)
   WIN_COMBINATIONS.each do |wins|
+    board == wins
     puts "This space is #{wins}"
   end
 end
