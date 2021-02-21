@@ -20,7 +20,7 @@ def won?(board)
     if wins.any? == board
       true
     else
-      falsey
+      false
     end
   end
 end
