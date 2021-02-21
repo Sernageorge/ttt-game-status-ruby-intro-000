@@ -19,4 +19,10 @@ def won?(board)
   WIN_COMBINATIONS.each do |wins|
     wins.each do |position|
       if position == board
+        true
+      else
+        false 
+      end
+    end
+  end
 end
