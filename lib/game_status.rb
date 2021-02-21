@@ -16,5 +16,11 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  position_taken?(board, index) == WIN_COMBINATIONS.any?{|wins| board.include?(wins)}
+  WIN_COMBINATIONS.each do |wins|
+    if position_taken?(board) == wins 
+      true
+    else
+      false
+    end
+  end
 end
