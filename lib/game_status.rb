@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(board)
+def won?(board, position_taken?)
   WIN_COMBINATIONS.each do |line|
     if line == board(position_taken?)
       true
