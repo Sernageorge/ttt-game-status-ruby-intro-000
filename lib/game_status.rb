@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   board.each do |spot|
-    if spot == WIN_COMBINATIONS.any?
+    if spot == WIN_COMBINATIONS.each.any?
       true
     else
       false
