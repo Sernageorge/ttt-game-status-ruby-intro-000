@@ -17,7 +17,11 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if board == WIN_COMBINATIONS.each do |wins|
-    return wins
+  board == WIN_COMBINATIONS.each do |wins|
+    if wins == position_taken?
+      true
+    else 
+      false
+    end
   end
 end
