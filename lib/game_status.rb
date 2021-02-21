@@ -16,9 +16,4 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if WIN_COMBINATIONS.each do |line|
-    board == true
-  else
-    false
-  end
 end
