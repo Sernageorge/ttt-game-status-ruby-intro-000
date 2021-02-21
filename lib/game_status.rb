@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |wins|
     board == wins
-    puts "This space is #{wins}"
+    return wins
   end
 end
 
