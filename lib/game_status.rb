@@ -15,8 +15,8 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(board, position_taken)
+def won?(board)
   WIN_COMBINATIONS.each do |wins|
-    board == wins.include?(position_taken?)
+    board == wins.include?
   end
 end
