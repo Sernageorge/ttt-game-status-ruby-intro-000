@@ -16,11 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(position_taken?, WIN_COMBINATIONS)
-  WIN_COMBINATIONS.each do |line|
-    if line == position_taken?
-      return line
-    else
-      false
-    end
-  end
+  
 end
