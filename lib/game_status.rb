@@ -17,9 +17,4 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   board == WIN_COMBINATIONS.any?{|combo| combo == true}
-      true
-    else
-      false
-    end
-  end
 end
