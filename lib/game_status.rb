@@ -18,4 +18,5 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |wins|
     wins.include?(position_taken?)
+  end
 end
