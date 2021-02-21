@@ -17,10 +17,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |wins|
-    if board.each do |positions| == wins
-      true
-    else
-      false
-    end
+    puts "This space is #{wins}"
   end
 end
