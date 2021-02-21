@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if board == WIN_COMBINATIONS.any?{|line| line == board}
+  if board == WIN_COMBINATIONS.each.any?{|line| line == board}
     true
   else
     falsey
