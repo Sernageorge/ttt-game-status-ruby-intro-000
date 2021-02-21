@@ -16,9 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if board == WIN_COMBINATIONS.any?{|combo|}
-    true
-  else
-    false
-  end
+  board == WIN_COMBINATIONS.any?{|combo|}
 end
