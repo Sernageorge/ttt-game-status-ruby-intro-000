@@ -20,7 +20,7 @@ def won?(board)
     if board.each do |positions| == wins
       true
     else
-      false 
+      false
     end
   end
 end
