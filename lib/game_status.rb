@@ -19,8 +19,6 @@ WIN_COMBINATIONS = [
 def won?(board)
   if board == WIN_COMBINATIONS.each do |wins|
     return wins
-  else
-    false
   end
 end
 
