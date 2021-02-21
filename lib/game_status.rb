@@ -21,5 +21,3 @@ def won?(board)
     return wins
   end
 end
-
-won?(board)
