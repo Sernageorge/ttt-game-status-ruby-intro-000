@@ -14,3 +14,13 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+
+def won?(position_taken?(board, index), WIN_COMBINATIONS)
+  WIN_COMBINATIONS.each do |line|
+    if position_taken?(board, index) == line
+      return line
+    else
+      false
+    end
+  end
+end
