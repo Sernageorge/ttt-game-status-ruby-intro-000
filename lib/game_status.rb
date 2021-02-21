@@ -17,10 +17,10 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |wins|
-    if position_taken?(board) == wins
+    if board.each do |positions| == wins
       true
     else
-      false
+      false 
     end
   end
 end
