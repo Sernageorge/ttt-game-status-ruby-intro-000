@@ -23,4 +23,4 @@ def won?(board)
   end
 end
 
-wone?(board)
+won?(board)
