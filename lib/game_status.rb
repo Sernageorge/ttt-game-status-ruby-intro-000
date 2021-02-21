@@ -15,10 +15,10 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(position_taken?)
+def won?(board)
   WIN_COMBINATIONS.each do |line|
     line.each do |token|
-      if token == position_taken?
+      if token == board
         return true
       else
         false
