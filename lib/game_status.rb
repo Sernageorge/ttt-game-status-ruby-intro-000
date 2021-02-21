@@ -21,7 +21,7 @@ def won?(board)
       if position == board
         true
       else
-        false 
+        false
       end
     end
   end
