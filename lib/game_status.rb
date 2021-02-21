@@ -17,8 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |combo|
-    if combo.each do |line|
-      line.each == board
+    if combo.each do |line| == board
       true
     else
       false
