@@ -16,5 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(position_taken?, WIN_COMBINATIONS)
-  
+
 end
