@@ -35,7 +35,7 @@ def won?(board)
     position_7 = board[win_index_7]
     position_8 = board[win_index_8]
 
-    if position_1 == position_2 && position_2 == position_3 && position_3 == posisition_4 && position_4 == posisition_5 && position_5 == posisition_6 && position_6 == posisition_7 && position_7 == posisition_8 && position_taken?(board, win_index_1)
+    if position_1 == position_2 && position_2 == position_3 && position_3 && position_taken?(board, win_index_1)
       return win_combination
     else
       return false
