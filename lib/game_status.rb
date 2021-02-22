@@ -30,7 +30,6 @@ def won?(board)
     else
       false
     end
-      board = win_combination
-    end
+    board = win_combination
   end
 end
