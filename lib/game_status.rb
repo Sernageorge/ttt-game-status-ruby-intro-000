@@ -31,5 +31,5 @@ def won?(board)
       false
     end
   end
-  position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
+  board = win_combination
 end
